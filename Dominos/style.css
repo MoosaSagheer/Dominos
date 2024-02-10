@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+}
+
+.logo{
+    background-image: url('img/Logo.png');
+    width: 211px;
+    height: 33px;
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+a{
+    text-decoration: none;
+    color: #5f88a3;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+nav ul{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav li{
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}
+nav a{
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    cursor: pointer;
+}
+.btn{
+    width: 148px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border: transparent;
+    font-size: 14px;
+    border-radius: 4px;
+    
+}
+.banner{
+    height: 450px;
+    background-color: #1a5ca3;
+    display: flex;
+    
+}
+.b1{
+    background-image: url(img/header_bg.png);
+    background-size: cover;
+    /* position: static; */
+    margin-top: 50px;
+    /* float: right; */
+    margin-left: 60px;
+    height: 400px;
+    width: 60%;
+    
+}
+.b2 h1{
+    color: white;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.b2 p{
+    color: #47a0ff;
+    margin-left: 100px;
+}
+.b2{
+line-break: loose;
+width: 45%;
+}
+.b2 button{
+    color: white;
+    background-color: rgb(15, 168, 15);
+    margin-left: 100px;
+    width: 70%;
+    height: 50px;
+    border: transparent;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 4px;
+}
+.pic{
+    background-image: url(img/banner_brand_20210922.jpg);
+    height: 100px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.body{
+    height: 880px;
+    width: 100%;
+}
+.home{
+    width: 100%;
+    height: 30px;
+    background-color: #d6d6d6;
+    color: rgb(70, 70, 187);
+    margin-top: 10px;
+
+
+
+
+}
+.home p{
+
+    padding-top: 7px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.c h2{
+    color: #708aa5;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.img2{
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    width: 95%;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.im1{
+    background-image: url('img/Home_airtel_30082020.jpg');
+    background-size: cover;
+    width: 550px;
+    height: 250px;
+}
+.im2{
+    background-image: url('img/Home_Paytm_20210519.jpg');
+    background-size: cover;
+    width: 550px;
+    height: 250px;
+    float: right;
+}
+.explore h2{
+    color: #708aa5;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.boxx{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.boxx h4{
+    margin-top: 10px;
+}
+.box{
+    border: 1px solid gray;
+    width: 20%;
+    height: 290px;
+}
+.boxx img{
+    margin-top: 20px;
+}
+.box p{
+    color: #2b4547;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+.ad{
+    height: 400px;
+    width: 100%;
+    background-color: #f2f5fc;
+    display: flex;
+}
+.ad1{
+    background-image: url(img/new_app_img.png);
+    background-size: cover;
+    height: 100%;
+    width: 42%;
+    margin-left: 80px;
+    align-content: baseline;
+
+    
+}
+.ad2{
+    margin-top: 80px;
+    margin-left: 10%;
+
+}
+.ad2 p{
+color: #8899c0;
+font-size: 1.8em;
+line-height: 50px;
+
+}
+.ad2 h3{
+    color: #59688c;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.m1{
+    background-image: url(img/play_store.png);
+    background-size: cover;
+    width: 42%;
+    height: 59px;
+
+}
+.flex{
+    display: flex;
+}
+.m2{
+    background-image: url(img/app_store.png);
+    background-size: cover;
+    width: 42%;
+    height: 59px;
+    margin-left: 40px;
+}
+.txt h3{
+    color: #006491;
+    font-size: 30px;
+    line-height: 34px;
+}
+.txt p{
+    color: #54565b;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.txt{
+    margin: 30px;
+}
+.menu button{
+    /* border: 1px solid rgb(63, 58, 58);
+    float: left; */
+    font-size: 11px;
+    font-weight: 700;
+     margin: 3px;
+    /* padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;  */
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    /* border-radius: 2px;
+    background-color: #f3ecec;
+    color: #131415; */
+    
+} 
+.menu{
+    margin: 10px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* box-shadow: gray; */
+
+}
+footer{
+    padding-top: 25px;
+    text-align: center;
+    height: 40px;
+    background-color: #1a2735;
+    color: #5c6f83;
+}
+.footer{
+    height: 375px;
+    background-color: #222e3a;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3{
+    color: #546273;
+}
+.footer p{
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.14;
+}
+.fb{
+    background-image: url(img/fb.png);
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+}
+.tw{
+    background-image: url(img/twitter.png);
+    width: 32px;
+    height: 26px;
+
+}
+.in{
+    background-image: url(img/instagram.png);
+    width: 31px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.yt{
+    background-image: url(img/You_tube.png);
+    width: 40px;
+    height: 29px;
+    margin-left: 10px;
+
+}
+.sm{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.hello{
+    background-image: url(img/hello_dominos_20210615.png);
+    margin-top: 20px;
+    height: 36px;
+    background-size: cover;
+    width: 90px;
+}
