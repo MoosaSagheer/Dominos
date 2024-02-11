@@ -334,3 +334,13 @@ footer{
     background-size: cover;
     width: 90px;
 }
+.chat{
+    background-image: url(img/chat.jpg);
+    /* background-color: #1a5ca3; */
+    background-size: cover;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:85px ;
+    height: 85px;
+}
